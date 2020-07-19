@@ -1,0 +1,105 @@
+nav ul ul {
+    display: none;
+}
+nav ul li:hover > ul {
+    display: block; }
+    nav ul {
+        background: #efefef;
+        background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);
+        background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%);
+        background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%);
+        box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+        padding: 0 20px;
+        border-radius: 10px;
+        list-style: none;
+        position: relative;
+        display: inline-table;
+    }
+    
+    nav ul:after {
+        content: ""; clear: both; display: block;
+    }
+
+    .Title {    
+        text-align: center;
+        color: #efefef;
+        margin-top: 100px;
+        margin-bottom: -10px;
+        font-size: 70px;
+    }
+    .line1 {margin-top: 75px; border-bottom: 5px white solid}   
+
+    .ImgTitle {
+        margin-left: 43%;
+    }
+
+    .sTitle {
+        text-align: center;
+        color: #efefefd8;
+        margin-top: 33px;
+        
+        
+    }
+
+
+    .Wwe {margin-left: 10px;}
+
+
+/* علشان اخلي القوائم يم بعض  */
+
+.flex {
+    display:flex ;
+    margin-top: 100px;
+    
+}
+
+
+
+
+/* تعديل div حق الاربعه  */
+
+.bed {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    font-family: Arial;
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
+
+
+
+
+
+/*  العناوين للانتقال */
+
+h1 { 
+    color: black;
+    font-size: 10px;
+    padding-top: 15px;
+    }
+
+   
+/* الفقره تحت العناوين  */
+
+p {
+    color: rgba(12, 12, 12, 0.952);
+    font-size: 20px;
+}
+
+
+
+
+a {
+    text-decoration-style: none;
+}
+
+.slide{
+
+    width: 800px;
+    align-content: center;
+    margin-right: 30px;
+    border: white solid 10px;
+    }

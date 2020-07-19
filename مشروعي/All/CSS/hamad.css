@@ -1,0 +1,181 @@
+html, body{
+    margin: 0;
+    height: 100%;
+}
+
+
+nav ul ul {
+    display: none;
+}
+nav ul li:hover > ul {
+    display: block; }
+    nav ul {
+        background: #efefef;
+        background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);
+        background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%);
+        background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%);
+        box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+        padding: 0 20px;
+        border-radius: 10px;
+        list-style: none;
+        position: relative;
+        display: inline-table;
+    }
+    
+    nav ul:after {
+        content: ""; clear: both; display: block;
+    }
+
+    .Title {    
+        text-align: center;
+        color: #efefef;
+        margin-top: 100px;
+        margin-bottom: -10px;
+        padding-bottom: 80px;
+        font-size: 70px;
+    }
+    .line1 {margin-top: 75px; border-bottom: 5px white solid}   
+
+    .ImgTitle {
+        margin-left: 30%;
+        margin-bottom: 20px;
+    }
+
+    .sTitle {
+        text-align: center;
+        color: #efefefd8;
+        margin-top:55px;
+        padding-bottom: 0px;
+        
+        
+    }
+
+
+    .Wwe {margin-left: 10px;}
+
+
+    .allall {display: flex;
+ 
+        margin: 4px;
+    
+    }
+
+    .sidebar{
+   
+        border-radius: 8px;
+        /* pxالعرض هنا يجب ان يكون 120 */
+        width: 150px;
+        background-color: rgb(126, 126, 126);
+        color: black;
+        height: 120vh;
+    }
+
+    .hh {
+        margin-right: 200px;
+
+    }
+
+/* علشان اخلي القوائم يم بعض  */
+
+.flex {
+    display:flex ;
+    margin-top: 100px;
+    
+}
+
+
+
+
+/* تعديل div حق الاربعه  */
+
+.bed {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    font-family: Arial;
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
+
+
+
+
+
+/*  العناوين للانتقال */
+
+h1 { 
+    color: black;
+    font-size: 10px;
+    padding-top: 15px;
+    }
+
+   
+/* الفقره تحت العناوين  */
+
+p {
+    color: rgba(12, 12, 12, 0.952);
+    font-size: 20px;
+}
+
+
+
+
+a {
+    text-decoration-style: none;
+    
+}
+
+
+h3 {
+    text-align: right;
+    margin-bottom: 200px;
+   
+    
+}
+
+li {
+    /* margin-top: 100px; */
+    text-align: right;
+}
+
+.flex {
+    margin-bottom: 100px;
+}
+
+.line {
+    /* margin-top: 100px;
+   
+    border-top: #efefef solid;
+    border-bottom: 10px; */
+    
+    
+    margin-top: 0px; border-bottom: 6px white solid
+
+}
+
+.divall {
+    margin-top: 0px;
+    background-color: rgb(146, 146, 146);
+    height: 200px;
+}
+.ww {
+    margin-left: 1150px;
+    padding-top: 20px;
+    
+}
+.qq {
+    margin-left:1300px;
+}
+
+.wwq {
+    display: flex;
+}
+
+.divdiv {
+    background-color: rgb(66, 66, 66);
+}
+.divhamad {
+    color: white;
+}
